@@ -1,24 +1,25 @@
 Bajaj Broking – Trading API Wrapper SDK (Simulation)
-Overview
+
+*Overview*
 
 This project is a simulated Trading Backend SDK built as part of the Bajaj Broking Campus Hiring Assignment.
 It demonstrates the design and implementation of RESTful APIs that mimic core trading workflows used in online stock broking platforms.
 
 The system allows users to:
 
-1)View tradable instruments
+View tradable instruments
 
-2)Place BUY/SELL orders
+Place BUY/SELL orders
 
-3)Check order status
+Check order status
 
-4)View executed trades
+View executed trades
 
-5)View portfolio holdings
+View portfolio holdings
 
-->This is a simulation only. No real market or Bajaj Broking live API integration is used.
+This is a simulation only. No real market or Bajaj Broking live API integration is used.
 
- Technology Stack:
+*Technology Stack:*
 
 Language: Python 3
 
@@ -40,7 +41,8 @@ bajaj-trading-sdk/
 └── README.md          
  # Project documentation
 
- Setup & Run Instructions
+*Setup & Run Instructions:*
+
 1)Clone / Download the Project
 git clone <your-github-repo-link>
 cd bajaj-trading-sdk Or extract the ZIP file and open the folder.
@@ -62,7 +64,7 @@ Server will start at:
 http://127.0.0.1:5000
 
  API Endpoints
-1) Get Instruments
+*1) Get Instruments*
 
 Endpoint
 GET /api/v1/instruments
@@ -84,7 +86,7 @@ Response
   }
 ]
 
-2) Place Order
+*2) Place Order*
 Endpoint
 POST /api/v1/orders
 Request Body
@@ -116,7 +118,7 @@ Quantity must be > 0
 
 Price is mandatory for LIMIT orders
 
-3) Get Order Status
+*3) Get Order Status*
 
 Endpoint
 
@@ -130,7 +132,7 @@ Response
   "status": "EXECUTED"
 }
 
-4) Get Trades
+*4) Get Trades*
 
 Endpoint
 
@@ -149,7 +151,7 @@ Response
   }
 ]
 
-5) Get Portfolio
+*5) Get Portfolio**
 
 Endpoint
 
@@ -167,7 +169,7 @@ Response
   }
 ]
 
-Order Execution Logic:
+*Order Execution Logic:**
 
 • MARKET Orders: Executed immediately
 
@@ -177,7 +179,7 @@ Trades are generated automatically for executed orders
 
 Portfolio is updated based on BUY and SELL operations
 
-Assumptions Made:
+*Assumptions Made:**
 
 • Single hardcoded user (no authentication)
 
@@ -197,7 +199,7 @@ API Testing:
 
 • Postman (GET & POST requests)
 
-Key Highlights:
+*Key Highlights:**
 
 • Clean RESTful API design
 
@@ -209,7 +211,7 @@ Key Highlights:
 
 • Covers all functional requirements of the assignment
 
-● Future Enhancements :
+*Future Enhancements: **
 
 Swagger / OpenAPI documentation
 
@@ -223,7 +225,7 @@ Unit tests
 
 Dockerization
 
-Conclusion:
+**Conclusion:**
 
 This project demonstrates a clear understanding of:
 
@@ -236,4 +238,3 @@ This project demonstrates a clear understanding of:
 • Clean and maintainable code structure
 
 It fulfills all the mandatory requirements specified in the Bajaj Broking assignment.
-
