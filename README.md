@@ -1,5 +1,5 @@
 Bajaj Broking – Trading API Wrapper SDK (Simulation)
-📌 Overview
+Overview
 
 This project is a simulated Trading Backend SDK built as part of the Bajaj Broking Campus Hiring Assignment.
 It demonstrates the design and implementation of RESTful APIs that mimic core trading workflows used in online stock broking platforms.
@@ -16,9 +16,9 @@ View executed trades
 
 View portfolio holdings
 
-⚠️ This is a simulation only. No real market or Bajaj Broking live API integration is used.
+This is a simulation only. No real market or Bajaj Broking live API integration is used.
 
-🛠️ Technology Stack
+ Technology Stack:
 
 Language: Python 3
 
@@ -30,30 +30,30 @@ Data Storage: In-memory (Python lists & dictionaries)
 
 Authentication: Mocked (single hardcoded user)
 
- Project Structure
+Project Structure:
 bajaj-trading-sdk/
 │
-├── app.py              # Main Flask application
-├── requirements.txt    # Python dependencies
-└── README.md           # Project documentation
+├── app.py              
+# Main Flask application
+├── requirements.txt   
+ # Python dependencies
+└── README.md          
+ # Project documentation
 
-Setup & Run Instructions
-1️⃣ Clone / Download the Project
+ Setup & Run Instructions
+1)Clone / Download the Project
 git clone <your-github-repo-link>
-cd bajaj-trading-sdk
+cd bajaj-trading-sdk Or extract the ZIP file and open the folder.
 
-
-Or extract the ZIP file and open the folder.
-
-2️⃣ Create Virtual Environment (Optional but Recommended)
+2)Create Virtual Environment 
 python -m venv venv
 source venv/bin/activate    # macOS / Linux
 venv\Scripts\activate       # Windows
 
-3️⃣ Install Dependencies
+3)Install Dependencies
 pip install -r requirements.txt
 
-4️⃣ Run the Application
+4)Run the Application
 python app.py
 
 
@@ -61,13 +61,11 @@ Server will start at:
 
 http://127.0.0.1:5000
 
-📘 API Endpoints
-1️⃣ Get Instruments
+ API Endpoints
+1) Get Instruments
 
 Endpoint
-
 GET /api/v1/instruments
-
 
 Response
 
@@ -86,13 +84,9 @@ Response
   }
 ]
 
-2️⃣ Place Order
-
+2) Place Order
 Endpoint
-
 POST /api/v1/orders
-
-
 Request Body
 
 {
@@ -122,7 +116,7 @@ Quantity must be > 0
 
 Price is mandatory for LIMIT orders
 
-3️⃣ Get Order Status
+3) Get Order Status
 
 Endpoint
 
@@ -136,7 +130,7 @@ Response
   "status": "EXECUTED"
 }
 
-4️⃣ Get Trades
+4) Get Trades
 
 Endpoint
 
@@ -155,7 +149,7 @@ Response
   }
 ]
 
-5️⃣ Get Portfolio
+5) Get Portfolio
 
 Endpoint
 
@@ -173,51 +167,49 @@ Response
   }
 ]
 
-⚙️ Order Execution Logic
+Order Execution Logic:
 
-MARKET Orders: Executed immediately
+• MARKET Orders: Executed immediately
 
-LIMIT Orders: Accepted with validation (execution simulated)
+• LIMIT Orders: Accepted with validation (execution simulated)
 
 Trades are generated automatically for executed orders
 
 Portfolio is updated based on BUY and SELL operations
 
-🧠 Assumptions Made
+Assumptions Made:
 
-Single hardcoded user (no authentication)
+• Single hardcoded user (no authentication)
 
-Market price is static (mocked)
+• Market price is static (mocked)
 
-Orders execute immediately for MARKET type
+• Orders execute immediately for MARKET type
 
-No persistence (data resets when server restarts)
+• No persistence (data resets when server restarts)
 
-No real exchange connectivity
+• No real exchange connectivity
 
-🧪 API Testing
+API Testing:
 
-APIs were tested using:
+• APIs were tested using:
 
-Browser (GET requests)
+• Browser (GET requests)
 
-Postman (GET & POST requests)
+• Postman (GET & POST requests)
 
-Screenshots of API responses can be attached during submission if required.
+Key Highlights:
 
-🎯 Key Highlights
+• Clean RESTful API design
 
-Clean RESTful API design
+• In-memory trading simulation
 
-In-memory trading simulation
+• Proper validations & error handling
 
-Proper validations & error handling
+• Beginner-friendly and readable code
 
-Beginner-friendly and readable code
+• Covers all functional requirements of the assignment
 
-Covers all functional requirements of the assignment
-
-📌 Future Enhancements (Optional)
+● Future Enhancements :
 
 Swagger / OpenAPI documentation
 
@@ -231,21 +223,16 @@ Unit tests
 
 Dockerization
 
-👤 Author
-
-Name: Banavath Vinayak
-Purpose: Bajaj Broking – Campus Hiring Assignment
-
-✅ Conclusion
+Conclusion:
 
 This project demonstrates a clear understanding of:
 
-Backend API design
+ • Backend API design
 
-Trading system fundamentals
+• Trading system fundamentals
 
-REST principles
+• REST principles
 
-Clean and maintainable code structure
+• Clean and maintainable code structure
 
 It fulfills all the mandatory requirements specified in the Bajaj Broking assignment.
