@@ -1,9 +1,10 @@
-![WhatsApp Image 2026-01-08 at 13 32 35](https://github.com/user-attachments/assets/d5e15c96-8da9-416b-94e8-922f38409db4)
-![WhatsApp Image 2026-01-08 at 13 32 35 (4)](https://github.com/user-attachments/assets/c120d0f0-a168-401e-804d-ddddfa3a2c5e)
-![WhatsApp Image 2026-01-08 at 13 32 35 (3)](https://github.com/user-attachments/assets/97614992-b00f-41df-8ee5-fa0d9dc97d0e)
-![WhatsApp Image 2026-01-08 at 13 32 35 (2)](https://github.com/user-attachments/assets/57912adf-6a58-4138-8d34-86bf316e6835)
-![WhatsApp Image 2026-01-08 at 13 32 35 (1)](https://github.com/user-attachments/assets/ce35a3af-ebe7-4655-a5a5-ccbd6a48107f)
-![WhatsApp Image 2026-01-08 at 13 32 32](https://github.com/user-attachments/assets/bcb3fb54-2260-4edb-bd5e-c63b61582ac1)
+![orders6](https://github.com/user-attachments/assets/fb41ca3e-593f-4c52-9063-eb004def4f8f)
+![portfolio5](https://github.com/user-attachments/assets/cdf3862b-4630-4bfd-80a8-185ecda65172)
+![trades4](https://github.com/user-attachments/assets/1dcbb544-b5d6-4144-9f95-8330d864a5ea)
+![3](https://github.com/user-attachments/assets/56b79bb5-53f8-4897-93c2-8fd0218d0bd2)
+![orders2](https://github.com/user-attachments/assets/dcc2b1d9-fe4b-40ae-8f71-5be8662ff0a7)
+![instruments](https://github.com/user-attachments/assets/59a1a9e2-85d0-4e0e-88a4-8416585ae68b)
+
 Bajaj Broking – Trading API Wrapper SDK (Simulation)
 
 *Overview*
@@ -244,5 +245,6 @@ This project demonstrates a clear understanding of:
 • Clean and maintainable code structure
 
 It fulfills all the mandatory requirements specified in the Bajaj Broking assignment.
+
 
 
