@@ -6,17 +6,17 @@ It demonstrates the design and implementation of RESTful APIs that mimic core tr
 
 The system allows users to:
 
-View tradable instruments
+1)View tradable instruments
 
-Place BUY/SELL orders
+2)Place BUY/SELL orders
 
-Check order status
+3)Check order status
 
-View executed trades
+4)View executed trades
 
-View portfolio holdings
+5)View portfolio holdings
 
-This is a simulation only. No real market or Bajaj Broking live API integration is used.
+->This is a simulation only. No real market or Bajaj Broking live API integration is used.
 
  Technology Stack:
 
@@ -236,3 +236,4 @@ This project demonstrates a clear understanding of:
 • Clean and maintainable code structure
 
 It fulfills all the mandatory requirements specified in the Bajaj Broking assignment.
+
